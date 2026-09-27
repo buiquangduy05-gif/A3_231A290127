@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         + (cbRemember.isChecked() ? " (đã ghi nhớ)" : ""), Snackbar.LENGTH_SHORT).show());
 
         // Chuyển màn hình sẽ học kỹ ở Lab A5; ở đây chỉ dùng một dòng để xem bản ConstraintLayout
-   //     btnConstraint.setOnClickListener(v ->
-//                startActivity(new Intent(this, ConstraintDemoActivity.class)));
+       btnConstraint.setOnClickListener(v ->
+               startActivity(new Intent(this, ConstraintDemoActivity.class)));
   }
    }
